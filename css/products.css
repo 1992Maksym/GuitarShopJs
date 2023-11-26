@@ -1,0 +1,24 @@
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  grid-gap: 45px;
+  width: 80px;
+  max-width: 1200px;
+  margin: var(--spacing-large) auto;
+  list-style: none;
+}
+.products-container .products-element {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 25px 20px;
+  background-color: var(--color-white);
+}
+.products-container .products-element .products-element__img {
+  width: 100%;
+  height: 270px;
+  object-fit: contain;
+}
+.products-container .products-element .products-element__name {
+  margin-bottom: auto;
+}
