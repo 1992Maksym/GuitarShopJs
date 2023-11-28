@@ -8,10 +8,18 @@ $spacing-large: 30px;
 $color-unaccent: #808080;
 $light-grey: #d3d3d3;
 
+::-webkit-scrollbar {
+    width: 3px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: $color-unaccent;
+    border-radius: 5px;
+}
 
 * {
     box-sizing: border-box;
 }
+
 
 body {
     margin: 0;
