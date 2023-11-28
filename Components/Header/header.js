@@ -3,6 +3,10 @@ class Header {
         this.counter = '';
     }
 
+    openCartPage() {
+        shoping.render();
+    }
+
     cartHendler(count) {
         if(count > 0){
             this.counter = count
@@ -15,7 +19,7 @@ class Header {
         this.cartHendler(count)
         const htmlHeader = `
             <div class="header-container">
-                <div class="header-counter">🔥 ${this.counter}</div>
+                <div class="header-counter" onclick="headerPage.openCartPage()">🔥 ${this.counter}</div>
             </div>
         `;
 
