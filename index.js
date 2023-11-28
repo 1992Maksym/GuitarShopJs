@@ -2,7 +2,12 @@ function render() {
     let productsLength = localStorageUtil.getFromLocal().length;
 
     headerPage.render(productsLength);
-    productsPage.render();
+    spinner.render();
+    setTimeout(() => {
+        ROOT_SPINNER.innerHTML = '';
+        productsPage.render();
+    },1000)
+    
 }
 
 render()

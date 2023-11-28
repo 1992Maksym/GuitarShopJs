@@ -28,5 +28,3 @@ class Header {
 }
 
 const headerPage = new Header();
-let productsLength = localStorageUtil.getFromLocal().length;
-headerPage.render(productsLength);
