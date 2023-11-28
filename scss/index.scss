@@ -1,11 +1,13 @@
-:root {
-    --color-light: #f8f9fa;
-    --color-white: white;
+
+$color-light: #f8f9fa;
+$color-white: white;
     
-    --spacing-small: 10px;
-    --spacing-medium: 15px;
-    --spacing-large: 30px;
-}
+$spacing-small: 5px;
+$spacing-medium: 15px;
+$spacing-large: 30px;
+$color-unaccent: #808080;
+$light-grey: #d3d3d3;
+
 
 * {
     box-sizing: border-box;

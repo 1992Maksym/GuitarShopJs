@@ -1,0 +1,12 @@
+@import "../../scss/index.scss" ;
+
+.header-container{
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: $light-grey;
+    padding: 0 60px;
+
+    .header-counter{}
+}
